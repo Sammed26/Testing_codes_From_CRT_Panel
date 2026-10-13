@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-24T12:34:30 IST" name="Demo Web Shop" finished-at="2026-09-24T12:34:31 IST" duration-ms="202">
+    <groups>
+      <group name="regression">
+        <method signature="LoginCheck.clickOnLogin()[pri:0, instance:login.LoginCheck@12aba8be]" name="clickOnLogin" class="login.LoginCheck"/>
+        <method signature="TestMethod.m1()[pri:0, instance:com.cjc.TestMethod@2e8c1c9b]" name="m1" class="com.cjc.TestMethod"/>
+        <method signature="LoginCheck.CheckLogin()[pri:0, instance:login.LoginCheck@76a4ebf2]" name="CheckLogin" class="login.LoginCheck"/>
+        <method signature="LoginCheck.clickOnLogin()[pri:0, instance:login.LoginCheck@76a4ebf2]" name="clickOnLogin" class="login.LoginCheck"/>
+        <method signature="LoginCheck.fillLoginDetails()[pri:0, instance:login.LoginCheck@76a4ebf2]" name="fillLoginDetails" class="login.LoginCheck"/>
+      </group> <!-- regression -->
+      <group name="integration">
+        <method signature="LoginCheck.clickOnLogin()[pri:0, instance:login.LoginCheck@12aba8be]" name="clickOnLogin" class="login.LoginCheck"/>
+        <method signature="LoginCheck.m1()[pri:0, instance:login.LoginCheck@12aba8be]" name="m1" class="login.LoginCheck"/>
+        <method signature="LoginCheck.clickOnLogin()[pri:0, instance:login.LoginCheck@76a4ebf2]" name="clickOnLogin" class="login.LoginCheck"/>
+      </group> <!-- integration -->
+      <group name="sam">
+        <method signature="LoginCheck.clickOnLogin()[pri:0, instance:login.LoginCheck@12aba8be]" name="clickOnLogin" class="login.LoginCheck"/>
+        <method signature="LoginCheck.clickOnLogin()[pri:0, instance:login.LoginCheck@76a4ebf2]" name="clickOnLogin" class="login.LoginCheck"/>
+      </group> <!-- sam -->
+    </groups>
+    <test started-at="2026-09-24T12:34:30 IST" name="Integration Testing" finished-at="2026-09-24T12:34:31 IST" duration-ms="100">
+      <class name="login.LoginCheck">
+        <test-method signature="clickOnLogin()[pri:0, instance:login.LoginCheck@12aba8be]" started-at="2026-09-24T12:34:31 IST" name="clickOnLogin" finished-at="2026-09-24T12:34:31 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogin -->
+        <test-method signature="m1()[pri:0, instance:login.LoginCheck@12aba8be]" started-at="2026-09-24T12:34:31 IST" name="m1" finished-at="2026-09-24T12:34:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- login.LoginCheck -->
+    </test> <!-- Integration Testing -->
+    <test started-at="2026-09-24T12:34:31 IST" name="Regression Testing" finished-at="2026-09-24T12:34:31 IST" duration-ms="17">
+      <class name="com.cjc.TestMethod">
+        <test-method signature="m1()[pri:0, instance:com.cjc.TestMethod@2e8c1c9b]" started-at="2026-09-24T12:34:31 IST" name="m1" finished-at="2026-09-24T12:34:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- com.cjc.TestMethod -->
+      <class name="login.LoginCheck">
+        <test-method signature="CheckLogin()[pri:0, instance:login.LoginCheck@76a4ebf2]" started-at="2026-09-24T12:34:31 IST" name="CheckLogin" finished-at="2026-09-24T12:34:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLogin -->
+        <test-method signature="clickOnLogin()[pri:0, instance:login.LoginCheck@76a4ebf2]" started-at="2026-09-24T12:34:31 IST" name="clickOnLogin" finished-at="2026-09-24T12:34:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogin -->
+        <test-method signature="fillLoginDetails()[pri:0, instance:login.LoginCheck@76a4ebf2]" started-at="2026-09-24T12:34:31 IST" name="fillLoginDetails" finished-at="2026-09-24T12:34:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillLoginDetails -->
+      </class> <!-- login.LoginCheck -->
+    </test> <!-- Regression Testing -->
+  </suite> <!-- Demo Web Shop -->
+</testng-results>

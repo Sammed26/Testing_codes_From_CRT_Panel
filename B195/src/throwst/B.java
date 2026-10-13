@@ -1,0 +1,15 @@
+package throwst;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class B extends A{
+
+	
+	
+public B()throws Exception
+{
+	
+}
+}
