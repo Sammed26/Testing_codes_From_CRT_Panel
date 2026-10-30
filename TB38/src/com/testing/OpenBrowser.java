@@ -52,6 +52,7 @@ public class OpenBrowser {
 		Set<String> window_handles = driver.getWindowHandles();
 		System.out.println("all window handle = " + window_handles);
 		
+		
 		// .findElement(locator)
 		// driver.findElement(locator);
 		

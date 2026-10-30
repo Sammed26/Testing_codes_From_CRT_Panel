@@ -93,6 +93,65 @@ public class Locators_2 {
 					- //div[contains(@id, 'EXPERIENCE')]
 					- //input[contains(@id, 'name')]
 			
+			
+			8. CSS Locators
+				
+				a) tagname and id
+					- you can find element by using id and tagname
+					- syntax = tagname#idvalue
+					- div#SKILLS
+					- input#name
+				
+				b) tagname and classname
+					- you can find element by using class and tagname
+					- syntax = tagname.classname
+					- form.feedback-form
+				
+				c) tagname, attribute and attribute value
+					- syntax = tagname[attribute = 'attribute_value']
+					- input[name="email"]
+					- textarea[id="response"]
+				
+				d) tagname, classname, attribute and attribute value
+					- syntax = tagname.classname[attribute = 'attribute_value']
+					- div.Feedback-content[id='FEEDBACK']
+					- div.skills-content[id="SKILLS"]
+				
+				e) Match with Substring
+					i) Match with Prefix (^)
+						- you can match attribute value's prefix
+						- syntax = tagname[attribute ^= 'attribute_value_prefix']
+						- div[class^='projects']
+						- div[class^='pop-up-after-s']
+						- a[href^='https://l']
+						
+					ii) Match with Suffix ($)
+						- you can match attribute value's suffix
+						- syntax = tagname[attribute $= 'attribute_value_suffix']
+						- div[class $= 'nsuccessful-form']
+						- a[href $= 'd_26/']
+						
+					
+					iii) Match with Contains (*)
+						- you can match with any substring of attribute value
+						- syntax = tagname[attribute *= 'attribute_value_substring']
+						- a[href *= 'code']
+						- a[href *= 'linkedin']
+					
+				f) Direct Child
+					- syntax = parent_element > child_element
+					- div.skills > ul
+					- div.skills-content > p.title
+				
+				g) nth Child
+					- syntax = element :nth-child(3)
+					- div.skills > ul :nth-child(7)
+					- ul.first-ul>:nth-child(4)
+					- ul.first-ul :nth-child(4)
+				
+				h) nth-of-type
+					- syntax = element element1:nth-of-type(2)
+					- form.feedback-form input:nth-of-type(3)
 		
 		*/
 		
